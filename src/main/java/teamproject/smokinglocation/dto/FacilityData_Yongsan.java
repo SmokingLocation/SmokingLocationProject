@@ -6,9 +6,9 @@ import lombok.Setter;
 import java.util.List;
 
 @Getter@Setter
-public class FacilityData {
+public class FacilityData_Yongsan {
     private int currentCount;
-    private List<Facility> data;
+    private List<Facility_Yongsan> data;
     private int matchCount;
     private int page;
     private int perPage;
